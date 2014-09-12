@@ -345,7 +345,6 @@ milestone<y:LabelModel>
       </data>
     </edge>
     <edge id="e7" source="n0" target="n5">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -359,7 +358,6 @@ milestone<y:LabelModel>
       </data>
     </edge>
     <edge id="e8" source="n5" target="n3">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
