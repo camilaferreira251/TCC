@@ -1,27 +1,28 @@
 1 - Introdução
 
 2 - Problema
-	- Como colaborar com o Portal do Software Pùblico
+	- Como fazer a governança de dois mecanismos de produção antagonicos: a forma de produção/gestão utilizada pelo governo e a forma de gestão/produção do software livre/Pùblico
 
-3 - Projeto
-	- O que é o SPB
-	- Modelo atual do SPB
-	- Modelo Proposto 
+3 - Software livre - começar pelos conceitos emergindo de teorias. novo plano
+	- Problema software livre no governo - modelo de desenvolvimento do software livre
+		-direito autoral
+		-licenças
+	- O que é o SPB - é um software livre
 
-4 - Objetivo Geral: Propor um guia de boas práticas de colaboração
-para o Software Público Brasileiro
-	-Objetivos específicos: Padrões de colaboração por tipo de 
-usuário do SPB
+5 - Governança
+	- SISP como exemplo - teoria geral da administração
 
-5 - Conceitos trazidos com o novo ambiente
-	-Controle de versão (Gitlab)
-	-Gereciamento de Projetos (Redmine)*
-	-Rede Social (Noosfero)
+	- problemas com o desenvolvimento do software livre 
 
-6 - Definir os padrões propostos
-	- colaborar com software público
-	- usuário de software público
-	- usuário com software candidato
-	- usuário gerente* (Estoou em dúvida quanto a existência desse)
+4 - Objetivo Geral: Propor a governança de colaboração no Portal do Sofware Público Brasileiro
+	Objetivos especificos: Tratar a governança do portal do software público
+		Especificar problemas do software livre no governo
+		Propor um modelo de colaboração equilibrando as características dos processos de governo com as características empíricas do desenvolvimento do Software livre/público
+
+6 - Equilibrio entre as duas visões de gestão: governo não contrata software público
+
+
 	
 7 - Conclusão
+
+Pedir capítulo de livro para o hilmer
