@@ -78,32 +78,26 @@ são monitoradas envolvendo o relacionamento entre todos os integrantes,
 são recomendações objetivas alinhando interesses na intenção de prezervar e 
 otimizar o valor da organização, em outras palavras é um conjunto de processos
 que regulam a maneira como uma organização é dirigida e estuda as relações entre 
-os diferentes atores que a compõe
-
-O conceito de governança não é novo e, segundo relatório da ONU, significa o processo 
-de tomar decisões e o processo de escolher as decisões que serão implementadas.
-%
-Governança pode ser usada em diferentes contextos, seja corporativo,de governo ou 
-local.
+os diferentes atores que a compõe.\cite{molinarogestao}
 
 Mais especificamente para tecnologia da informação um sistema de governança
 estabelece mecanismos, estruturas e incentivos, que compõem o sistema de controle de 
 gestão da empresa e direciona o comportamento dos administradores para o cumprimento 
-dos objetivos estipulados pelos acionistas/proprietários (MARTIN, 2004).
+dos objetivos estipulados pelos acionistas/proprietários.\cite{martin2004governancca}
 %
+Segundo a Ministry of international trade and industry do MIT\footnote{http://www.mti.gov.bw/content/international-trade} 
 Além de "Capacidade organizacional de controlar a formulação e implementação da 
 estratégia de TI e guiar a mesma na direção adequada com o propósito de gerar 
-vantagens competitivas para acorporação” (THE MINISTRY OF INTERNATIONAL TRADE 
-AND INDUSTRY, 2003).
+vantagens competitivas para acorporação”
 
 Os conjuntos de processos definidos pela governança visam além de organizar, 
 dar transparência ao trabalho a ser realizado.
-
+%
 Processo é um conjunto sequencial de ações baseado em estratégia para alcançar
 um objetvo. Para definir uma estratégia são necessarios 3 passos, identificar a
 situação do ambiente, identificar a situação da organização e por fim é comparada
 a situação do ambiente e da organização e identificados os cursos alternativos
-de ação e escolhida a melhor alternativa.  
+de ação e escolhida a melhor alternativa.\cite{molinarogestao}
 
 Trazendo para a realidade do Novo Portal do Software público, a governaça pode ser usada para 
 definir um processo que auxilie na gestão do Portal como um todo, e mais especificamente,
@@ -117,7 +111,95 @@ A definição da governaça dará subsídios para sejam notados os padrões de u
 nova plaforma, podendo assim ser geradas algumas 'boas pŕaticas' para uso e colaboração
 visando a manutenebilidade da plataforma.
 
-\section{Modelo SISP}
+\section{Processo de Software para o SISP (PSW-SISP)}
+
+O processo de software para o SISP aborda as atividades ligadas ao desenvolvimento 
+e as atividades ligadas ao planejamento de recursos para o ambiente necessário para
+o software.
+
+O processo é dividido em 6 fases:
+
+\begin{itemize}
+\item Concepção e Alinhamento estratégico: Esta fase inicia com o envio do 
+documento de oficialização da demanda (DOD) da Área Requisitante para a Área de 
+TI, que irá verificar o alinhamento estratégico da demanda com os instrumentos 
+estratégicos do órgão e, caso não esteja alinhada, irá devolver o DOD à Área 
+Requisitante para que, após a estimativa de custo preliminar do projeto de software 
+realizado pela Área de TI, a mesma solicite a mudança do PDTI ao Comitê de TI. O 
+comitê de TI irá analisar a possibilidade de incluir a demanda não planejada e, 
+caso seja viável, atualizará o PDTI. Caso esteja alinhado estrategicamente, a 
+Área de TI irá elaborar o termo de abertura e iniciar o projeto;(PSW-SISP)
+
+\item Especificação e dimensionamento: Esta fase destina-se ao entendimento e 
+dimensionamento da demanda de software através da definição do escopo do produto, 
+da modelagem de negócio e do levantamento dos requisitos funcionais e não funcionais;
+(PSW-SISP)
+
+\item Estratégia de desenvolvimento:Essa fase destina-se a escolher a estratégia 
+de desenvolvimento (desenvolvimento interno, produção colaborativa ou contratação) 
+mais adequada para o desenvolvimento e/ou manutenção do software (evolutiva, 
+corretiva e adaptativa). Após escolhida a estratégia de desenvolvimento, será 
+avaliado qual a melhor metodologia de desenvolvimento de sistemas e qual a infraestrutura 
+e sustentação necessários para que o software funcione corretamente no ambiente de produção; 
+(PSW-SISP)
+
+\item Desenvolvimento: É a fase onde é iniciada a execução do projeto de acordo 
+com o que foi planejado nas fases anteriores. O planejamento será atualizado 
+sempre que necessário para se adequar às novas realidades de tempo, escopo, 
+custo, qualidade e negócio; (PSW-SISP)
+
+\item Implantação e Estabilização: Implantação do software (adequado ou desenvolvido) 
+em seu ambiente de produção, para o seu uso efetivo, estabilizando a solução de 
+acordo com o ambiente de execução e o retorno dos usuários; (PSW-SISP)
+
+\item Sustentação e Evolução: manutenção da saúde do sistema (incluindo, mas não 
+limitado à processos de backup de dados, segurança de acesso e outros), o suporte 
+continuado aos usuários e o atendimento de novos requisitos que surgem do próprio 
+uso e mudanças de processos no negócio. (PSW-SISP)
+
+\end{itemize}
+
+O processo possui ainda, oito eixos de trabalho que permeiam todas as fases:
+
+\begin{itemize}
+
+\item Alinhamento estratégico: Alinhamento da necessidade do software com as
+necessidades de negócio do órgão descritas nos seus instrumentos estratégicos;
+
+\item Gestão de projetos: Os processos de gestão de projetos serão mapeados 
+tendo como referência a Metodologia de Gerenciamento de Projetos do SISP (MGP-SISP);
+
+\item Produção Colaborativa: Desenvolvimento conjunto de software, ou seja, processos
+que promovam o levantamento de requisitos comuns a mais de um órgão para que 
+possam desenvolver ou contratar um software colaborativamente;
+
+\item Gestão de Contratação: Conjunto de boas práticas para contratações de
+soluções de TI. Os processos da gestão de contratação serão baseados e alinhados 
+com a instrução normativa IN MP/SLTI no 04/2010 e no Manual de Contratações de 
+Soluções de Tecnologia da Informação;
+
+\item Engenharia de Software: Desenvolvimento e manutenção de sistemas baseado nas
+melhores práticas difundidas no mercado e na literatura, e em metodologias 
+utilizadas por órgãos e entidades da Administração Pública Federal;
+
+\item Gestão da Segurança: Desenvolvimento seguro de software que envolve tanto a
+segurança do ambiente de desenvolvimento quanto da aplicação desenvolvida;
+
+\item Gestão da Infraestrutura: Construir um ambiente que tenha a capacidade 
+necessária para prover serviços e uma estrutura adequada ao desenvolvimento de
+software;
+
+\item Gestão da Sustentação: Planejamento das condições necessárias para que o 
+software desenvolvido seja mantido, operado e evoluído de forma sustentável e 
+viável.
+  	
+\end{itemize}
+
+Segundo o PSW-SISP, o intuito do processo é que ele seja usado conforme as 
+necessidades e maturidade do órgão. Ficará a cargo dos órgãos decidir quais 
+as atividades são adequadas à maturidade e ao projeto em desenvolvimento ou 
+manutenção (corretiva, adaptativa e corretiva), sendo que algumas atividades 
+mínimas são consideradas essenciais para a qualidade do software.
 	
 
 
