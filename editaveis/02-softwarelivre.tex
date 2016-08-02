@@ -8,7 +8,10 @@ a solução proposta pelo governo chamada software público brasileiro.
 O software livre muitas vezes é considerado um fenômeno recente que veio à tona
 rapidamente nos últimos anos. No entanto, desde o início da Computação a maior parte
 dos desenvolvedores trabalhava da forma que hoje identificamos com o software livre:
-Compartilhando código de forma aberta~\cite{kon2012software}.
+Compartilhando código de forma aberta. Esta característica 
+faz com que o código esteja disponível para inspeção, alteração, e utilização por qualquer
+pessoas, física ou jurídica~\cite{kon2012software, Hippel:2003:OSS:970521.970585}.
+
 
 Software expressa uma solução abstrata dos problemas computacionais. O software, em um
 sistema computacional, é o componente que contém o conhecimento relacionado aos problemas a
@@ -37,12 +40,16 @@ livre é aquele que permite aos usuários usá-lo, estudá-lo, modificá-lo e re
 em geral, sem restrições para tal e prevenindo que não sejam impostas restrições aos 
 futuros usuários~\cite{meirelles2013metrics}.
 
+Do ponto de vista econômico, diferentemente do que ocorre com o software 
+restrito, o software livre promove o estabelecimento
+de vários fornecedores que competem entre si com base no mesmo software. Essa competição 
+mais forte entre fornecedores traz vantagens para os usuários, pois dá melhores
+garantias quanto ao desenvolvimento futuro do sistema e induz a uma redução nos 
+preços~\cite{kon2012software}.
+
 Estima-se que hoje há centenas de milhões de usuários de software livre no mundo. Se
 considerarmos também usuários indiretos, que usam serviços baseados em software livre,
 como Google, Amazon ou eBay, esse número é ainda maior~\cite{sabino2009licenccas}.
-
-
-%\section{Software Livre no Governo}
 
 O governo vêm adotando um conjunto de iniciativas para implementação de software
 livre no Brasil como reação aos enormes custos gerados à Administração com licenças
@@ -54,7 +61,6 @@ meio do Decreto nº 29/03.
 A lei que rege sobre o software no Brasil é a Lei de Direitos Autorais e será 
 explicada em detalhes a seguir. 
 
-\begin{comment}
 
 \section{Lei de direitos autorais}
 
@@ -91,9 +97,14 @@ tecnologia da informação (ITI), o software no Brasil é regido pelo direito au
 Na sua maioria das vezes, essa proteção decorrente da lei segue aliada aos termos 
 conferidos por um contrato atinente a determinado software. Esse contrato é 
 denominado “licença”. A licença de um software estabelece um rol de direitos e 
-deveres que se projetam sobre um determinado usuário do software.
+deveres que se projetam sobre um determinado usuário do software. Em princípio, 
+o que diferencia o software livre do software restrito é apenas a forma de
+licenciamento. \cite{kon2012software}
 
-\end{comment}
+A produção de software livre foi inicialmente concebida como
+uma alternativa ao modelo proprietário tradicional, onde o uso
+do aplicativo era vendido sob os termos de uma licença. \footnote{http://sbc.org.br/component/flippingbook/book/21}
+
 
 \section{Licenças de Software}
 
@@ -206,12 +217,76 @@ regido pela Instrução Normativa Nº 01 de 17 de janeiro de 2011.
 Segundo esta IN ao se disponibilizar um software público o mesmo estará se tornando um bem público
 que pode ser usado por todos.
 
+A Instrução Normativa 04/2012 indica que os gestores devem consultar as soluções 
+existentes no portal do SPB antes de realizar uma contratação de software. Por outro,
+a evolução técnica do portal do SPB foi comprometida, desde 2009, ao não acompanhar 
+a evolução do seu framework base, o OpenACS. Não houve o lançamento de novas versões do
+portal desde então\footnote{http://sbc.org.br/component/flippingbook/book/21}.
+
+Em fevereiro de 2016 a equipe da SLTI(Secretaria de Logística e Tecnologia da Informação), ligada ao
+MPOG(Ministério do Orçamento Planejamento e Gestão), responsável pelo Portal do Solftware
+Público Brasileiro, abriu para consulta pública a minuta para a nova Intrução 
+Normativa\footnote{http://www.participa.br/softwarepublico/minuta-da-instrucao-normativa-do-software-publico-software-de-governo-e-projeto-de-software/minuta-da-instrucao-normativa-do-software-publico-brasileiro-e-de-governo/minuta-da-instrucao-normativa}.
+Essa nova IN traz novos conceitos e novas regras para a disponibilização de software público sendo elas:
+
+\begin{itemize}
+
+\item Qualquer licensa GPL superior a versão 2.0 será aceita.
+
+\item Utilização de modelo de licença livre compatível com a Creative Commons CC-
+BY-SA 3.0 BR ou posterior em relação à proteção da marca do software.
+
+\item Foi criado o conceito de Software de Governo, que visa a utilização do Portal
+como local para compartilhamento de soluções entre órgãos do governo.
+
+\end{itemize}
+
+As alteraçoes na IN Nº 1 e o lançamento da MInuta só foram possíveis devido 
+a reformulação do Portal do Software Público que trasformou o portal em uma 
+plataforma colaborativa. Uma nova plataforma para o SPB está foi desenvolvida
+pela Universidade de Brasília, através dos seus Laboratórios LAPPIS\footnote{https://fga.unb.br/lappis} 
+e MídiaLab\footnote{http://www.midialab.unb.br/} 
+em parceria com o Centro de Competência em Software Livre da Universidade de São Paulo(CCSL-USP)\footnote{http://ccsl.ime.usp.br/}.
+
+A nova plataforma do SPB é composta por um conjunto de ferramentas com diferentes funcionalidades
+que juntas compõe o novo Portal. Todas as ferramentas são software livre e o que foi desenvolvido pelas equipes da UnB e 
+USP foi publicado em repositórios abertos, disponíveis no próprio SPB, as principais são:
+\begin{itemize}
+
+\item Colab, ferramenta desenvolvida pela Interlegis\footnote{http://www.interlegis.leg.br/}, órgão ligado 
+ao Senado Federal, que têm como objetivo principal a integração com outras ferramentas.
+
+\item Noosfero, é um plataforma de criação de redes sociais que conta com as funcionalidades
+que uma rede social provê, bem como blogs, galeria de imagens, entre outras. É mantido pela 
+COOLIVRE\footnote{http://colivre.coop.br/} além do SERPRO\footnote{https://www.serpro.gov.br/} e a 
+Universidade de Brasília.
+
+\item Gitlab, ferramenta de desenvolvimento colaborativo, projetos no gitlab são mantigos em 
+repositório Git que provê: gestão de tarefas (issue tracker), merge requests, 
+gestão de marcos (milestones), suporte a integração com plataformas de integração contínua e notificações.
+
+\item GNU Mailman, ferramenta que gerencia listas de e-mail.
+
+\end{itemize}
+
+A arquitetura do novo Portal pode ser vizualizada a seguir\footnote{https://softwarepublico.gov.br/doc/arquitetura.html}.
+
+\begin{figure}[h]
+	\centering
+	\label{arquitetura}
+		\includegraphics[keepaspectratio=true,scale=0.3]{figuras/arquitetura.eps}
+	\caption{Arquitetura do novo SPB}
+\end{figure}
 
 
+A nova plataforma do SPB foi lançada para homologação em dezembro de 2014 mas já
+está sento utilizada em sua totalidade pelas comunidades do SPB, a antiga versão do Portal 
+já foi desativada e suas comunidades foram migradas para a nova plataforma. 
 
-
-
-
+Disponibilizar um conjunto de ferramentas e melhorar a experiência do usuário no 
+ambiente é parte desse processo de reformulação do SPB. Aspectos culturais 
+da colaboração em rede para um efetivo uso do que é fornecido na plataforma 
+necessitam ser amadurecidos pelo MP junto às comunidades do SPB.
 
 
 
