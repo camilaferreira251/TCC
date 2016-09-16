@@ -8,11 +8,11 @@ a solução proposta pelo governo chamada software público brasileiro.
 O software livre muitas vezes é considerado um fenômeno recente que veio à tona
 rapidamente nos últimos anos. No entanto, desde o início da Computação a maior parte
 dos desenvolvedores trabalhava da forma que hoje identificamos com o software livre:
-Compartilhando código de forma aberta. Esta característica 
+compartilhando código de forma aberta. Essa característica 
 faz com que o código esteja disponível para inspeção, alteração, e utilização por qualquer
 pessoas, física ou jurídica~\cite{kon2012software, Hippel:2003:OSS:970521.970585}.
 
-
+%TODO {
 Software expressa uma solução abstrata dos problemas computacionais. O software, em um
 sistema computacional, é o componente que contém o conhecimento relacionado aos problemas a
 que a computação se aplica. Por isso, o software é algo de interesse geral, uma vez que vários
@@ -39,6 +39,8 @@ de uso, baseado na colaboração e num processo de desenvolvimento aberto. Softw
 livre é aquele que permite aos usuários usá-lo, estudá-lo, modificá-lo e redistribui-lo, 
 em geral, sem restrições para tal e prevenindo que não sejam impostas restrições aos 
 futuros usuários~\cite{meirelles2013metrics}.
+%TODO: Reescreve com suas palavras, uma vez que é TCC 2}
+
 
 Do ponto de vista econômico, diferentemente do que ocorre com o software 
 restrito, o software livre promove o estabelecimento
@@ -51,11 +53,17 @@ Os projetos de software livre seguem o estilo Linus Trovalds de desenvolvimento,
 cedo e frequentemente, delegue tudo que você possa, esteja aberto ao ponto de promiscuidade.
 Nenhuma catedral calma e respeitosa, e sim, parecer assemelhar-se a um grande e barulhento 
 bazar de diferentes agendas e aproximações. Em uma cultura que encoraja a troca de
-software, isto é, um caminho natural para o software evoluir. A principal diferença 
-entre o estilo catedral e bazar é a programação, erros e problemas de desenvolvimento 
+software, isto é, um caminho natural para o software evoluir.
+
+%TODO:
+A principal diferença 
+entre o estilo Catedral e Baazar é a programação, erros e problemas de desenvolvimento 
 são difíceis, leva meses de exame minuncioso de poucas pessoas dedicadas e longos 
-intervalos de liberação de novos trechos de código no estilo catedral. Na visão 
-bazar, erros são geralmente um fenômeno trivial, pois é exposto a centenas de 
+intervalos de liberação de novos trechos de código no estilo catedral.
+%TODO: está confuso, talvez por erro de pontuação
+
+Na visão 
+Baazar, erros são geralmente um fenômeno trivial, pois é exposto a centenas de 
 desenvolvedores com liberação frenquente de código~\cite{Raymond:1999:CB:580808}.
 
 Quando você começa a contrução de uma comunidade, seu programa não precisa funcionar
@@ -67,7 +75,7 @@ O uso de ferramentas de controle de versão se tornou fundamental para o gerenci
 do desenvolvimento de projetos de software livre. Uma vez que seu projeto está 
 disponível em uma dessas ferramentas, um desenvolvedor pode acessá-lo e criar
 uma cópia daquele código sobre os mesmos termos da licensa, explicada abaixo, e 
-colaborar com o desenvolvimento. Para esta colaboração, os desenvolvesores criam
+colaborar com o desenvolvimento. Para essa colaboração, os desenvolvesores criam
 \textit{issues}, que são tarefas, essas tarefas são desenvolvidas em seu ambiente
 e quando o desenolvedor as termina e enviado para o código oficial por um 
 \textit{merge request} onde o código será revisado e pode ou não ser aceito.
@@ -82,6 +90,7 @@ de softwares, o Decreto presidencial 18/00 instituiu o Comitê Executivo do Gove
 Eletrônico, no intuito de racionalizar gastos com softwares. Para efetivar esse 
 objetivo, instituiu o Comitê Técnico para Implementação de Software Livre, por
 meio do Decreto nº 29/03.
+%Governo Temer acabou com o CISL - Temos atualizar o tempo aqui
 
 A lei que rege sobre o software no Brasil é a Lei de Direitos Autorais e será 
 explicada em detalhes a seguir. 
@@ -97,11 +106,12 @@ possível porque o software está sujeito à proteção da lei a respeito dos di
 de autor, que garante ao criador o direito exclusivo de exploração de sua obra. 
 Isso lhe permite autorizar ou não determinadas formas de uso do software por parte 
 dos usuários.%artigo paulo
+%TODO: referências
 
 A legislação brasileira vê o software menos como produto e mais como expressão 
 intelectual, prevendo que os direitos de autor são o mecanismo próprio de proteção 
 ao software e excluindo explicitamente patentes como opção (Lei 9609/98 e Lei 9279/98, art. 10).
-%
+%TODO: referência
 Segundo o instituto nacional de tecnologia da informação\footnote{http://www.iti.gov.br/}
 , os direitos autorais sobre software, assim como sobre as obras literárias, são 
 independentes de registro. A Lei do Software estabelece, no entanto, que o INPI\footnote{http://www.inpi.gov.br}
@@ -121,7 +131,7 @@ Segundo estudo sobre o software livre, comissionado pelo instituto nacional da
 tecnologia da informação (ITI), o software no Brasil é regido pelo direito autoral. 
 Na sua maioria das vezes, essa proteção decorrente da lei segue aliada aos termos 
 conferidos por um contrato atinente a determinado software. Esse contrato é 
-denominado “licença”. A licença de um software estabelece um rol de direitos e 
+denominado ``licença''. A licença de um software estabelece um rol de direitos e 
 deveres que se projetam sobre um determinado usuário do software. Em princípio, 
 o que diferencia o software livre do software restrito é apenas a forma de
 licenciamento. \cite{kon2012software}
@@ -129,6 +139,7 @@ licenciamento. \cite{kon2012software}
 A produção de software livre foi inicialmente concebida como
 uma alternativa ao modelo proprietário tradicional, onde o uso
 do aplicativo era vendido sob os termos de uma licença. \footnote{http://sbc.org.br/component/flippingbook/book/21}
+%TODO: o que esse footnote?
 
 
 \section{Licenças de Software}
@@ -139,15 +150,17 @@ de software livre são documentos através dos quais os detentores dos direitos 
 programa de computador autorizam usos de seu trabalho que, de outra forma, estariam
 protegidos pelas leis vigentes no local~\cite{sabino2009licenccas}.
 
-Para que um software seja dito livre "o detentor dos direitos patrimoniais 
+Para que um software seja dito livre ``o detentor dos direitos patrimoniais 
 sobre um software, deve escolher os termos em que seu trabalho será distribuído, 
 ou seja, os direitos que ele estará transferindo para as outras pessoas e quais as 
 condições que serão aplicadas. O documento que formaliza esse ato é a licença, 
-que normalmente é distribuída junto com o código fonte"~\cite{sabino2009licenccas}.
+que normalmente é distribuída junto com o código fonte''~\cite{sabino2009licenccas}.
+%TODO: tentar evitar citação direta, entre aspas; ou seja, escrever com suas palavras
 
 Software aberto pode ser distribuído em uma grande variedade de licenças.
 A mais famosa é a GNU General Public License (GPL), usada pela maior
 parte do software desenvolvido pela Free Software Foundation \footnote{https://www.fsf.org/pt-br}.
+%TODO: aqui vamos usar apenas software livre e não aberto
 
 As licenças de software são separadas em permissivas, recíprocas totais e recíprocas
 parciais.
@@ -182,7 +195,8 @@ dessa categoria são: LGPL\footnote{www.fsf.org/licensing/licenses/lgpl.html} e 
 Licença Mozilla~\cite{sabino2009licenccas}.
 
 Para que um software se torne software público hoje, entre outras coisas, ele deve
-possuir licença GPL2.0, conforme Instrução Normativa nº 01 de 17 de janeiro de 2011.   
+possuir licença GPL2.0, conforme Instrução Normativa nº 01 de 17 de janeiro de 2011.
+%TODO: terá que falar da nova IN que flexibilizou isso   
 
 \section{Software Público}
 
@@ -200,8 +214,9 @@ AvaliaSPB que avalia a entrada dos softwares candidatos à software público. O 
 proporciona a integração com ambientes colaborativos externos, especialmente com redes sociais. A
 plataforma escolhida na ocasião da criação foi o framework OpenACS, que continua sendo utilizada
 na atual versão.
+%TODO: atualizar as informações
 
-Inicialmente, o propósito do Portal compartilhar os softwares desenvolvidos
+Inicialmente, o propósito do Portal de compartilhar os softwares desenvolvidos
 no governo visando diminuir os custos de contratação de software, mas se observou
 que ao disponibilizar os softwares rapidamente se formavam comunidades em torno 
 daquele software com diversas pessoas colaborando e compartilhando os resultados
@@ -236,23 +251,27 @@ Para se disponibilizar um software no Portal do Software Público a equipe do Po
 oferece um documento chamado Manual do Ofertante onde estão contidas todas as 
 informações e procedimentos para disponibilizar um software. neste manual é citada
 qual licença de software deve ser aplicada e sobre o registro do software no INPI. 
+%TODO atualizar informações
 
 O modelo atual de disponibilização de um software como público é
 regido pela Instrução Normativa Nº 01 de 17 de janeiro de 2011. 
 Segundo esta IN ao se disponibilizar um software público o mesmo estará se tornando um bem público
 que pode ser usado por todos.
+%TOOD: verificar a novo IN
 
 A Instrução Normativa 04/2012 indica que os gestores devem consultar as soluções 
 existentes no portal do SPB antes de realizar uma contratação de software. Por outro,
 a evolução técnica do portal do SPB foi comprometida, desde 2009, ao não acompanhar 
 a evolução do seu framework base, o OpenACS. Não houve o lançamento de novas versões do
 portal desde então\footnote{http://sbc.org.br/component/flippingbook/book/21}.
+%Descreva melhor esse footnote
 
 Em fevereiro de 2016 a equipe da SLTI(Secretaria de Logística e Tecnologia da Informação), ligada ao
 MPOG(Ministério do Orçamento Planejamento e Gestão), responsável pelo Portal do Solftware
 Público Brasileiro, abriu para consulta pública a minuta para a nova Intrução 
 Normativa\footnote{http://www.participa.br/softwarepublico/minuta-da-instrucao-normativa-do-software-publico-software-de-governo-e-projeto-de-software/minuta-da-instrucao-normativa-do-software-publico-brasileiro-e-de-governo/minuta-da-instrucao-normativa}.
 Essa nova IN traz novos conceitos e novas regras para a disponibilização de software público sendo elas:
+%TODO: tem vir falando da novo IN desde o inicio
 
 \begin{itemize}
 
@@ -307,15 +326,10 @@ A arquitetura do novo Portal pode ser vizualizada a seguir\footnote{https://soft
 A nova plataforma do SPB foi lançada para homologação em dezembro de 2014 mas já
 está sento utilizada em sua totalidade pelas comunidades do SPB, a antiga versão do Portal 
 já foi desativada e suas comunidades foram migradas para a nova plataforma. 
+%TODO: atualizar
 
 Disponibilizar um conjunto de ferramentas e melhorar a experiência do usuário no 
 ambiente é parte desse processo de reformulação do SPB. Aspectos culturais 
 da colaboração em rede para um efetivo uso do que é fornecido na plataforma 
 necessitam ser amadurecidos pelo MP junto às comunidades do SPB.
-
-
-
-
-
-
 
