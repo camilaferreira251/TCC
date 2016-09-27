@@ -1,4 +1,5 @@
 \chapter{Desenvolvimento do novo Portal \\FlossCoach}
+\label{desenvolvimento}
 
 Neste capítulo explicaremos como foi desenvolvido o novo portal FlossCoach, passando
 pelas 3 fases passadas até o presente momento, desde a versão inicial até o FlossCoach
@@ -89,34 +90,87 @@ da tese do professor Igor e adaptamos para o contexto de software público além
 enviarmos os questionários para o grupo de interesse explicado no Capítulo~\ref{metodologia}.
 Esta fase também durou 4 meses, tendo início em abril de 2016 e finalizando em julho de 2016.
 
+Iniciamos a terceira fase do desenvolvimento em agosto de 2016 juntamente com a disciplina 
+de manutenção e evolução de software, minitrada pelo professor Paulo Merirelles na UnB. 
+Nesta disciplina os alunos escolhem um projeto que queira participar entre as opções 
+dadas pelo professor e uma dessas opções foi o FlossCoach. O FlossCoach foi um dos 
+projetos mais escolhidos pelos alunos e o professor Paulo teve que fazer uma seleção
+dos alunos para o desenvolvimento. Após essa seleção foi montada uma equipe com
+6 alunos para desenvolver o projeto.
 
-%explcar terceira fase e sprints e todo o mecanismo da disciplina de mes
+Esta disciplina tem como objetivo aplicar técnicas de desenvolviemtno colaborativo,
+são utilizados apenas projetos de software livre na disciplina para que os alunos 
+possam se apropriar do código e assim fazer manutenções corretivas e evolutivas no
+mesmo.
+
+Para a organização da disciplina e evolução dos alunos, o desenvolvimento é dividido
+em \textit{sprints}, quase sempre, de duas semanas onde são aplicadas as práticas de 
+desenvolvimento ágil. No início de cada sprint é feito um planejamento da sprint, 
+onde são escolhidas as \textit{issues} que serão desenvolvidas naquela \textit{sprint}.
+No início da aula é feito um \textit{stand up}, uma reunião em pé, de no máximo 15
+minutos para que seja passado para os outros membros da equipe o \textit{status} da
+tarefa o qual está responsável e ao final da sprint é feita uma revisão da \textit{sprint},
+momento para fechar as \textit{issues} que foram concluídas na \textit{sprint}, 
+analisar as que não foram concluídas e apontar os motivos afim de que os outrs membros
+da equipe possam ajudar.
+
+No FlossCoach eu acompanhei todas essas práticas juntamente com a equipe e estava
+a disposição para que os alunos da disciplina pudessem tirar dúvidas. Foram desenvolvidas
+6 \textit{sprints} ao longo do semestre cujas \textit{issues} desenvolvidas podem
+ser vistas na Tabela~\ref{issues}.
+
+A \textbf{Sprint 1}, foi planejada para que os alunos pudessem levantar o ambiente
+do FlossCoach em suas máquinas além de estudar o código e suas funcionalidades. Com o
+ambiente funcionando corretamente em todas as máquinas, nós configuramos uma ferramenta
+para o desenvolvimento de testes unitários chamada \textit{rspec}, e iniciamos o 
+desenvolvimento de alguns testes das \textit{models} do FlossCoach. 
+
+Na \textbf{Sprint 2}, planejamos a criação de um papel de administrador aos usuários
+e a atribuição deste papel ao usuário que cria um novo projeto além de aprovar 
+membros para serem administradores do projeto. Nesta etapa todos os usuários podem
+modificar os projetos e a criação do papel de administrador é a primeira tarefa 
+para que outros usuários deixem de poder modificar os projetos. Foram feitas a 
+criação e atibuição do papel de administrador, mas não tivemos tempo para fazer a 
+aprovação de membros.
+
+Para a \textbf{Sprint 3}, pensamos em configurar a internacionalização do FlossCoach
+devido à pesquisa com softwares públicos, além de adicionar nosvos campos ao cadastro 
+de usuário que foram pensados juntamete com o Igor para deixar o cadastro de usuário 
+mais completo e o conserto de um link quebrado para a página de perfil de usuário.  
+
 
 \begin{table}[h]
 	\centering
-	\label{tab01}
-	
 	\begin{tabular}{ccc}
 		\toprule
 		\textbf{Sprint} & \textbf{Issues desenvolvidas} \\
 		\midrule
-		Sprint 1 & Testes unitários das \textit{models} \\
-			 & Levantar ambiente e tomar conhecimento do FlossCoach \\
+		Sprint 1 & Levantar ambiente e tomar conhecimento do FlossCoach \\
+			 & Configurar ambiente de testes unitários \\
+			 & Iniciar testes das \textit{models}\\
 		\midrule
 		Sprint 2 & Criar papel de administrador do projeto\\
 			 & Atribuir papel de administrador ao usuário que cria o projeto \\
 			 & Aprovação de membros em projetos \\
 		\midrule		
-		Sprint 3 & Internacionalização \\
-			 & \\
+		Sprint 3 & Configuração da internacionalização \\
+			 & Adicionar novos campos ao cadastro de usuário\\
+			 & Redirecionar o \textit{link} de perfil para a página de perfil do usuário.\\
 		\midrule		
-		Sprint 4 & \\
+		Sprint 4 & Traduzir \textit{homepage}.\\
+			 & Traduzir página de projetos.\\
+			 & Retirar permissão de editar projetos para usuários que não são administradores.\\ 
 		\midrule		
-		Sprint 5 & \\
+		Sprint 5 & Traduzir página de perfil de usuário\\
+			 & Traduzir cadastro de usuário.\\
 		\midrule
-		Sprint 6 & \\
+		Sprint 6 & Traduzir página de ferramentas e linguagem.\\
+			 & Configurar \textit{gem} de campos customizáveis.\\
 		\bottomrule
 	\end{tabular}
 
 	\caption{Conteúdo das sprints da terceira fase do desenvolvimento.}
+	\label{issues}
 \end{table}
+
+
