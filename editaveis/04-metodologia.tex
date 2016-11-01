@@ -1,12 +1,6 @@
 \chapter{Metodologia}
 \label{metodologia}
 
-Neste capítulo apresentaremos a metodologia de pesquisa adotada no desenvolvimento 
-do trabalho, mostrando os passos utilizados para chegarmos aos resultados.
-
-
-\section{Problema}
-
 O Software Livre possui um mecanismo de produção colaborativo e dinâmico 
 e possui uma organização composta por um conjunto de pessoas que usa e desenvolve 
 um único software livre, contribuindo para uma base comum de código-fonte e 
@@ -23,9 +17,10 @@ projeto nas primeiras interações com a comunidade e com o projeto sem chegar,
 ao menos, à levantar o ambiente do software.
 
 Com projetos de software público não é diferente, apesar de haver um portal que
-centraliza as informações do projeto, é possível reparar que as barreiras levantadas
-para projetos de software livre, mostradas no capítulo~\ref{barreirasSL}, se aplicam
-a projetos de software público.
+centraliza as informações do projeto, queremos averiguar se as barreiras levantadas
+para projetos de software livre, mostradas no Capítulo~\ref{barreirasSL}, se aplicam
+a projetos de software público e se além dessas barreiras já mapeadas, existem outras 
+barreiras específicas, devido as características desses projetos.
 
 O modelo típico do software livre se diferencia em muitos aspectos 
 com a forma que o governo brasileiro desenvolve software, onde se estabelece um 
@@ -54,24 +49,24 @@ com um projeto de software público do que com um projeto de software livre?}
 Acreditamos que a forma com que o governo brasileiro adota os software públicos
 e trabalha no desenvolvimento pode gerar mais barreiras no desenvolvimento que 
 não se aplicam ou não estão presentes no desenvolvimento de software livre. O
-governo brasileiro possui uma estrutura rígida de cargos, onde se estabelece um
+Governo Federal possui uma estrutura rígida de cargos, onde se estabelece um
 distanciamento daqueles que demandam produtos de software daqueles que desenvolvem
 software e procuramos saber se esta forma não causa ainda mais dificuldades no 
 desenvolvimento.
 
 \section{Pesquisa com as comunidades}
 
-Nós reproduzimos a pesquisa elencada na tese de doutorado do professor Igor 
-Steinmacher da maneira que foi apresentada no Capítulo \ref{barreirasSL} no ambiente
+Nós reproduzimos a pesquisa elencada no trabalho de \citeonline{steinmancher2015} 
+da maneira que foi apresentada no Capítulo \ref{barreirasSL}, no ambiente
 do SPB com algumas adaptações para a realidade e o tempo do trabalho de conclusão
 de curso.
 
-Para identificar as barreiras para contribuir com software livre o Igor conduziu a 
+Para identificar as barreiras para contribuir com software livre, \citeonline{steinmancher2015} conduziu a 
 pesquisa qualitativa com base em um estudo sistemático da bibliografia existente no
 assunto, relato de estudantes que contribuiram com software livre, questinário com 
 questões abertas aplicado a desenvolvedores de software livre e entrevistas com 
 desenvolvedores com diferentes níveis de formação e experiência em desenvolvimento
-de software livre~\cite{steinmancher2015}.
+de software livre.
  
 Com o objetivo de levantar as barreiras para contribuir com software público, adaptamos
 a pesquisa do Igor, primeiramente utilizando como revisão sistemática a pesquisa feita 
@@ -118,7 +113,7 @@ recursos públicos e utiliza hoje a infraestrutura do SPB para sua manutenção.
 \end{itemize}
 
 
-Nós enviamos a as estas comunidades a mensagem presente no anexo \ref{anexo a}
+Nós enviamos a estas comunidades a mensagem presente no anexo \ref{anexo a}
 com o pedido que participassem da pesquisa mostrando o objetivo da mesma. Nosso objetivo 
 era atingir àqueles que contribuem com os projetos. Deixamos o questionário disponível 
 para que fosse respondido por 2 meses, enviando a mensagem apresentda em duas ocasiões.
@@ -138,6 +133,10 @@ para que obtivéssemos também a visão deles em relação a entrada de novos co
 Para a análise dos dados coletados com os questionários, utilizamos \textit{Ground Theory}, 
 explicada anteriormente no capítulo~\ref{barreirasSL}.
 
+Antes da pesquisa com as comunidades nós iniciamos o desenvolvimento do novo portal
+FlossCoach criando um protótipo inicial com o cadastro dos projetos e de usuários 
+conforme o portal atual o que será explicado em detalhes a seguir. 
+
 \section{Metodologia de desenvolvimento}
 
 O desenvolvimento do portal FlossCoach foi dividido em 3 fases, com a intenção de 
@@ -153,14 +152,14 @@ estava tomando conhecimento do código por nós desenvolvido e montando a equipe
 ajudar com o desenvolvimento na USP, nós traduzimos, adaptamos e aplicamos os questionários
 às comunidades escolhidas de projetos de software público.
 
-Para usar os questiários do Igor nós tivemos que traduzi-los pois se tratando de
+Para usar os questinários do trabalho de \citeonline{steinmancher2015} nós tivemos que traduzi-los pois se tratando de
 software público e de projetos que estão ligados ao governo, os próprios membros 
 do governo não aceitariam responder o questionário em inglês. Onde havia software 
 livre, substituímos por software público por exemplo, na questão sobre motivação
 do questionário para desenvolvedores, presente no Anexo~\ref{anexo b}, a questão 
-tirada do questionário do Igor, "\textit{What motivated you to start contributing 
-to an OSS project?}", em nosso questionário passou a ser "Qual a sua motivação para 
-contribuir com software público?".
+tirada do questionário do Igor, ``\textit{What motivated you to start contributing 
+to an OSS project?}'', em nosso questionário passou a ser ``Qual a sua motivação para 
+contribuir com software público?''.
 
 Com o projeto já em uma fase mais madura do desenvolvimento, o professor orientador
 deste trabalho, Paulo Meirelles, ministra uma disciplina de Manutenção e Evolução de
@@ -179,4 +178,13 @@ fazíamos uma reunião com toda a equipe para decidir quais \textit{issues} irí
 desenvolver naquele período. Utilizamos a prática de programação em pares, alternando
 os pares ao final das \textit{sprints} para circular o conhecimento dentro da equipe.
 Fazíamos \textit{stand up}, reuniões de 15 minutos, em pé para que cada dupla compartilhasse
-o andamento de suas tarefas e tirasse eventuais dúvidas com a equipe.
+o andamento de suas tarefas e tirasse eventuais dúvidas com a equipe e ao final da sprint 
+fazíamos uma reunião de revisão da \textit{sprint} para verificar quais \textit{issues} foram finalizadas e quais 
+necessitam de mais tempo e serão passadas para a próxima \textit{sprint} como ilustrado na Figura~\ref{fig:disciplina}.
+
+\begin{figure}[h]
+	\centering
+		\includegraphics[keepaspectratio=true,scale=0.4]{figuras/Sprint.eps}
+	\caption{Dinâmica do desenvolvimento na disciplina Manutenção e Evolução de Software.}
+	\label{fig:disciplina}
+\end{figure}
