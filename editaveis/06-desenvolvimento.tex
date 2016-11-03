@@ -1,10 +1,6 @@
 \chapter{Desenvolvimento do novo Portal \\FlossCoach}
 \label{desenvolvimento}
 
-Neste capítulo explicaremos como foi desenvolvido o novo portal FlossCoach, passando
-pelas 3 fases passadas até o presente momento, desde a versão inicial até o FlossCoach
-como está.
-
 O desenvolvimento do novo Portal FlossCoach foi dividido em tres fases. Na primeira, 
 nós construimos um protótipo funcional com base no FlossCoach atual. Nós coneçamos o
 desenvolvimento do protótipo funcional pelos motivos citados na Seção~\ref{flosscoach},
@@ -29,7 +25,8 @@ O protótipo funcional foi desenvolvido em \textit{ruby on rails} e \textit{boot
 nós escolhemos estas tecnologias por serem amplamente utilizadas para desenvolvimento
 de aplicações \textit{web} pela comunidade de software livre. Procuramos também utilizar
 apenas de recursos de software livre para o desenvolvimento, incluindo a ferramenta de 
-controle de versão e as bibliotecas utilizadas no \textit{front end}.
+controle de versão e as bibliotecas utilizadas no \textit{front end}. O código da classe
+software pode ser visto no Apêndice~\ref{apendice1}.
 
 \begin{figure}[h]
 	\centering
@@ -85,10 +82,9 @@ Nesta etapa eles desenvolveram:
 \end{figure}
 
 
-Neste intervalo de tempo da segunda fase nós traduzimos os questionários extraídos
-da tese do professor Igor e adaptamos para o contexto de software público além de 
-enviarmos os questionários para o grupo de interesse explicado no Capítulo~\ref{metodologia}.
-Esta fase também durou 4 meses, tendo início em abril de 2016 e finalizando em julho de 2016.
+Neste intervalo de tempo da segunda fase, nós trabalhamos na pesquisa das barreiras para
+contribuir com software público. Esta fase também durou 4 meses, tendo início em abril 
+de 2016 e finalizando em julho de 2016.
 
 Iniciamos a terceira fase do desenvolvimento em agosto de 2016 juntamente com a disciplina 
 de manutenção e evolução de software, minitrada pelo professor Paulo Merirelles na UnB. 
@@ -104,8 +100,8 @@ possam se apropriar do código e assim fazer manutenções corretivas e evolutiv
 mesmo.
 
 Para a organização da disciplina e evolução dos alunos, o desenvolvimento é dividido
-em \textit{sprints}, quase sempre, de duas semanas onde são aplicadas as práticas de 
-desenvolvimento ágil. No início de cada sprint é feito um planejamento da sprint, 
+em \textit{sprints}, quase sempre de duas semanas, como mostrado na Figura~\ref{fig:disciplina}
+onde são aplicadas as práticas de desenvolvimento ágil. No início de cada sprint é feito um planejamento da sprint, 
 onde são escolhidas as \textit{issues} que serão desenvolvidas naquela \textit{sprint}.
 No início da aula é feito um \textit{stand up}, uma reunião em pé, de no máximo 15
 minutos para que seja passado para os outros membros da equipe o \textit{status} da
@@ -113,6 +109,16 @@ tarefa o qual está responsável e ao final da sprint é feita uma revisão da \
 momento para fechar as \textit{issues} que foram concluídas na \textit{sprint}, 
 analisar as que não foram concluídas e apontar os motivos afim de que os outrs membros
 da equipe possam ajudar.
+
+Para que uma \textit{issue} seja aceita criamos uma política de que deveria ter
+testes unitários para o que fosse implementado além de que os testes já existentes
+deveriam estar funcionando, como no exemplo de código no Apêndice~\ref{apendice2}.
+No início desta fase de desenvolvimento houve uma preocupação 
+em criar testes unitários do que já havia sido implementado no FlossCoach pois 
+não havíamos tido essa preocupação anteriormente. Era necessário também que outro 
+membro da equipe revisasse o código e o aprovasse para que feita a revisão final
+por mim, que tinha permissão para acoplar ou não àquele trecho de código ao
+código oficial. 
 
 No FlossCoach eu acompanhei todas essas práticas juntamente com a equipe e estava
 a disposição para que os alunos da disciplina pudessem tirar dúvidas. Foram desenvolvidas
@@ -152,7 +158,6 @@ estava cadastrado mesmo efetuando o  cadastro. Como as tarefas eram simples,
 alguns membros terminaram suas tarefas antes do final da \textit{sprint}, eles 
 pegaram outra tarefa para fazer.
 
-%sprint 4, sprint individual 
 \begin{table}[h]
 	\centering
 	\begin{tabular}{ccc}
@@ -181,10 +186,11 @@ pegaram outra tarefa para fazer.
 			 & Estudar uma \textit{gem} de sistema de \textit{loging}.\\  
 		\midrule		
 		Sprint 5 & Inserção de campos específicos para software público.\\
-			 & Retirar permissão de editar projetos para usuários que não são administradores.\\
+			 & Implementar rotina de esqueci minha senha.\\
+			 & Colocar barra de internacionalização em todas as páginas.\\
+			 & Impedir criação de projetos com mesmo nome.\\
 		\midrule
-		Sprint 6 & Traduzir página de ferramentas e linguagem.\\
-			 & Configurar \textit{gem} de campos customizáveis.\\
+		Sprint 6 & Configurar \textit{gem} de campos customizáveis.\\
 		\bottomrule
 	\end{tabular}
 
