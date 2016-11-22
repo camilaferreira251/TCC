@@ -1,4 +1,4 @@
-TARGET = TCC_FGA.pdf
+TARGET = TCC_Camila_Ferreira_Pereira_Silva.pdf
 
 BIBTEX = bibtex
 LATEX = latex
