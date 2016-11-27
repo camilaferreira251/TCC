@@ -2,11 +2,12 @@
 \label{desenvolvimento}
 
 O desenvolvimento do novo Portal FlossCoach foi dividido em três fases. Na primeira, 
-nós construimos um protótipo funcional com base no FlossCoach atual. Nós começamos o
+nós construimos um protótipo funcional com base no FlossCoach desenvolvido pelo professor 
+Igor Steinmancher. Nós começamos o
 desenvolvimento do protótipo funcional pelos motivos citados na Seção~\ref{flosscoach}.
 
-O objetivo desta primeira fase do desenvolvimento era que obtivéssemos como cadastrar 
-os projetos com os campos para cadastro que já eram relatados no portal \\FlossCoach 
+O objetivo da primeira fase do desenvolvimento era que tivéssemos como cadastrar 
+os projetos com os campos para cadastro que já eram relatados no portal FlossCoach 
 além de um cadastro de usuários.
 
 Para a obtenção desse cadastro, tivemos algumas conversas com o professor Igor Steinmancher
@@ -24,9 +25,13 @@ houvessem entre os elementos.
 O protótipo funcional foi desenvolvido em \textit{ruby on rails} e \textit{bootstrap},
 nós escolhemos estas tecnologias por serem amplamente utilizadas para desenvolvimento
 de aplicações \textit{web} pela comunidade de software livre. Procuramos também utilizar
-apenas de recursos de software livre para o desenvolvimento, incluindo a ferramenta de 
+apenas recursos de software livre para o desenvolvimento, incluindo a ferramenta de 
 controle de versão e as bibliotecas utilizadas no \textit{front end}. O código da classe
-software pode ser visto no Apêndice~\ref{apendice1}.
+software, principal classe do projeto, pode ser visto no Apêndice~\ref{apendice1}.
+
+Esta fase do desenvolvimento durou 4 meses, iniciamos levantando os dados para implementação
+em dezembro de 2015 e concluimos em março de 2016 quando nós passamos a interagir de fato com o
+professor Igor Steinmancher iniciando a segunda fase do desenvolvimento.  
 
 \begin{figure}[h]
 	\centering
@@ -35,13 +40,8 @@ software pode ser visto no Apêndice~\ref{apendice1}.
 	\caption{Protótipo inicial do novo FlossCoach.}
 \end{figure}
 
-Esta fase do desenvolvimento durou 4 meses, iniciamos levantando os dados para implementação
-em dezembro de 2015 e concluímos em março de 2016 quando nós passamos o código para o
-professor Igor Steinmancher tomar conhecimento e iniciar a segunda fase do desenvolvimento.  
-
-
 Na segunda fase do desenvolvimento o professor Igor Steinmancher montou uma equipe 
-de desenvolvimento na USP, eles fizeram uma análise do que nós havímos desenvolvido
+de bolsistas para o desenvolvimento, eles iniciaram uma análise do que nós havímos desenvolvido
 e fizeram modificações no modelo de dados da aplicação chegando a uma segunda versão do 
 modelo.
 
@@ -52,7 +52,7 @@ modelo.
 	\caption{Segunda versão do modelo de dados do novo FlossCoach.}
 \end{figure}
 
-Neste segunda versão no modelo de dados algumas classes deixaram de exixtir e se tornaram
+Nessa segunda versão do modelo de dados algumas classes deixaram de exixtir e se tornaram
 atributos da classe \textit{software} e eles apresentaram 3 novas classes que não havia
 no diagrama anterior. Eles implemetaram as modificações que fizeram no diagrama de dados
 e melhoraram o \textit{front end} da aplicação além de desenvolver novas funcionalidades. 
@@ -82,19 +82,19 @@ Nesta etapa eles desenvolveram:
 \end{figure}
 
 
-Neste intervalo de tempo da segunda fase, nós trabalhamos na pesquisa das barreiras para
+Nesse intervalo de tempo da segunda fase, nós trabalhamos na pesquisa das barreiras para
 contribuir com software público. Esta fase também durou 4 meses, tendo início em abril 
 de 2016 e finalizando em julho de 2016.
 
 Iniciamos a terceira fase do desenvolvimento em agosto de 2016 juntamente com a disciplina 
 de manutenção e evolução de software, minitrada pelo professor Paulo Meirelles na UnB. 
-Nesta disciplina os alunos escolhem um projeto que queira participar entre algumas opções 
+Nesta disciplina os alunos escolhem um projeto que queiram participar entre algumas opções 
 e uma dessas opções foi o FlossCoach. O FlossCoach foi um dos 
 projetos mais escolhidos pelos alunos e o professor Paulo Meirelles fez uma seleção
 dos alunos para o desenvolvimento. Após essa seleção foi montada uma equipe com
 6 alunos para desenvolver o projeto.
 
-Esta disciplina tem como objetivo aplicar técnicas de desenvolviemtno colaborativo,
+Essa disciplina tem como objetivo aplicar técnicas de desenvolvimento colaborativo,
 são utilizados apenas projetos de software livre na disciplina para que os alunos 
 possam se apropriar do código e assim fazer manutenções corretivas e evolutivas no
 mesmo.
@@ -107,7 +107,7 @@ mesmo.
 		\midrule
 		Sprint 1 & Levantar ambiente e tomar conhecimento do FlossCoach \\
 			 & Configurar ambiente de testes unitários \\
-			 & Iniciar testes das \textit{models}\\
+			 & Escrita de testes de unidade das classes de modelos\\
 		\midrule
 		Sprint 2 & Criar papel de administrador do projeto\\
 			 & Atribuir papel de administrador ao usuário que cria o projeto \\
@@ -130,8 +130,7 @@ mesmo.
 			 & Refatoração de código.\\
 	
 		\midrule
-		Sprint 6 & Fechamento dívidas técnicas\\
-			 & Refatoração de código baseado em SOLID.\\
+		Sprint 6 & Fechamento de dívidas técnicas\\
 		\bottomrule
 	\end{tabular}
 
@@ -147,20 +146,21 @@ No início da aula é feito um \textit{stand up}, uma reunião em pé, de no má
 minutos para que seja passado para os outros membros da equipe o \textit{status} da
 tarefa o qual está responsável e ao final da sprint é feita uma revisão da \textit{sprint},
 momento para fechar as \textit{issues} que foram concluídas na \textit{sprint}, 
-analisar as que não foram concluídas e apontar os motivos afim de que os outrs membros
+analisar as que não foram concluídas e apontar os motivos afim de que os outros membros
 da equipe possam ajudar.
 
 Para que uma \textit{issue} seja aceita criamos uma política de que deveria ter
 testes unitários para o que fosse implementado além de que os testes já existentes
-deveriam estar funcionando, como no exemplo de código no Apêndice~\ref{apendice2}.
-No início desta fase de desenvolvimento houve uma preocupação 
+deveriam estar funcionando, como no exemplo de código\footnote{https://gitlab.com/flosscoach/flosscoach} 
+no Apêndice~\ref{apendice2}.
+No início dessa fase de desenvolvimento houve uma preocupação 
 em criar testes unitários do que já havia sido implementado no FlossCoach pois 
 não havíamos tido essa preocupação anteriormente. Era necessário também que outro 
 membro da equipe revisasse o código e o aprovasse para que feita a revisão final
-por mim, que tinha permissão para acoplar ou não àquele trecho de código ao
+por nós, que tinhamos permissão para acoplar ou não aquele trecho de código ao
 código oficial. 
 
-No FlossCoach eu acompanhei todas essas práticas juntamente com a equipe e estava
+No FlossCoach nós acompanhamos todas essas práticas juntamente com a equipe e estávamos
 a disposição para que os alunos da disciplina pudessem tirar dúvidas. Foram desenvolvidas
 6 \textit{sprints} ao longo do semestre seguindo a dinâmica apresentada na Figura~\ref{fig:disciplina} 
 cujas \textit{issues} desenvolvidas podem ser vistas na Tabela~\ref{issues}.
@@ -169,53 +169,72 @@ A \textbf{Sprint 1}, foi planejada para que os alunos pudessem levantar o ambien
 do FlossCoach em suas máquinas além de estudar o código e suas funcionalidades. Com o
 ambiente funcionando corretamente em todas as máquinas, nós configuramos uma ferramenta
 para o desenvolvimento de testes unitários chamada \textit{rspec}, e iniciamos o 
-desenvolvimento de alguns testes das \textit{models} do FlossCoach. 
+desenvolvimento de alguns testes das classes de modelos do FlossCoach. 
 
 Na \textbf{Sprint 2}, planejamos a criação de um papel de administrador aos usuários
-e a atribuição deste papel ao usuário que cria um novo projeto além de aprovar 
-membros para serem administradores do projeto. Nesta etapa todos os usuários podem
+e a atribuição desse papel ao usuário que cria um novo projeto além de aprovar 
+membros para serem administradores do projeto. Nessa etapa todos os usuários podiam
 modificar os projetos e a criação do papel de administrador é a primeira tarefa 
 para que outros usuários deixem de poder modificar os projetos. Foram feitas a 
-criação e atibuição do papel de administrador ficando faltando os testes que
+criação e atibuição do papel de administrador, faltando os testes que
 ficaram como dívida técnica para a próxima \textit{sprint}, e não tivemos tempo para fazer a 
 aprovação de membros. 
 
 Para a \textbf{Sprint 3}, pensamos em configurar a internacionalização do FlossCoach
-devido à pesquisa com softwares públicos, além de adicionar nosvos campos ao cadastro 
+devido à pesquisa com softwares públicos, além de adicionar novos campos ao cadastro 
 de usuário que foram pensados juntamete com o professor Igor Steinmancher, para deixar o cadastro de usuário 
 mais completo e o conserto de um link quebrado para a página de perfil de usuário.
 Também fizemos os testes da criação e atribuição de papel de admintrador ao uauário
 que cria o projeto concluindo assim todas as tarefas planejadas para a \textit{sprint}.
 
 A \textbf{Sprint 4} foi planejada para que fosse uma \textit{sprint} individual, que
-significa que cada membro do grupo resolverá uma issue sozinho, dessa forma foram 
-planejadas tarefas mais simples para que cada um consiga concluir ao menos uma
-tarefa na sprint, dessa forma planejamos a internacionalização da \textit{homepage},
-página de projetos, página de perfil de usuário e cadastro de usuário alem da 
+significa que cada membro do grupo resolveria uma issue sozinho, por esse motivo foram 
+planejadas tarefas mais simples para que cada um conseguisse concluir ao menos uma
+tarefa na \textit{sprint}, dessa forma planejamos a internacionalização da \textit{homepage},
+página de projetos, página de perfil de usuário e cadastro de usuário além da 
 tarefa de permitir que usuários possam editar seu perfil e corrigir um erro que
-estava ocorrendo no cadastro de um novo usuário que sempre dizia que o email já
+estava ocorrendo no cadastro de um novo usuário que sempre dizia que o e-mail já
 estava cadastrado mesmo efetuando o  cadastro. Como as tarefas eram simples,
 alguns membros terminaram suas tarefas antes do final da \textit{sprint}, eles 
 pegaram outra tarefa para fazer.
-
-Passada a \textit{sprint} 4, na disciplina de Manutenção e Evolução de Software é feita uma prática
-para verificar quão limpo é o código em que os alunos estão trabalhando utilizando
-ferramentas de análise estática onde essas ferramentas apresentam o que pode ser melhorado 
-no código para que os software fique mais seguro e coeso. Com os destaques feitos pelas
-ferramentas a \textbf{Sprint 5} foi separada para fazer a refatoração do código
-nos pontos criticados.
-
-Na \textbf{Sprint 6} foram feitas refatorações baseadas nos principios SOLID de
-manutenção de software além de resolver dívidas técnicas que ficaram das \textit{sprints}
-anteriores. Essas tarefas foram feitas com a intenção de deixar as contribuições feitas
-durante o perído da disciplina completas.  
 
 \begin{figure}[h]
 	\centering
 	\label{fig:producao}
 		\includegraphics[keepaspectratio=true,scale=0.3]{figuras/flosscoachProducao.eps}
-	\caption{Nova versão do portal FlossCoach.}
+	\caption{Página de projetos do novo portal FlossCoach.}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\label{fig:producao}
+		\includegraphics[keepaspectratio=true,scale=0.3]{figuras/paginaprojeto.eps}
+	\caption{Página do projeto Polari no novo portal FlossCoach.}
+\end{figure}
+
+Passada a \textit{sprint} 4, na disciplina de Manutenção e Evolução de Software é feita uma prática
+para verificar quão limpo é o código em que os alunos estão trabalhando utilizando
+ferramentas de análise estática onde essas ferramentas apresentam o que pode ser melhorado 
+no código para que os software fiquem mais seguros e coesos. Com os destaques feitos pelas
+ferramentas a \textbf{Sprint 5} foi separada para fazer a refatoração do código
+nos pontos criticados.
+
+Na \textbf{Sprint 6} foram feitas refatorações afim de resolver dívidas técnicas 
+que ficaram das \textit{sprints} anteriores. Essas tarefas foram feitas com a intenção 
+de deixar as contribuições feitas durante o perído da disciplina completas.  
+
+\begin{figure}[h]
+	\centering
+	\label{fig:producao}
+		\includegraphics[keepaspectratio=true,scale=0.3]{figuras/cadastrousuario.eps}
+	\caption{Página de cadastro de usuário do novo portal FlossCoach.}
 \end{figure}
 
 Ao final da terceira fase de desenvolvimento o antigo portal FlossCoach foi substituído pela
 nova versão e está disponível na produção no mesmo endereço que estava o antigo, \textit{flosscoach.com}.
+Nessa nova versão é possível cadastrar e editar usuário e software, fazer login através das redes sociais 
+\textit{Facebook}\footnote{http://facebook.com} e \textit{Twitter}\footnote{http://twitter.com} além do \textit{Github}\footnote{http://github.com}, 
+buscar informações a respeito dos projetos no \textit{OpenHub}\footnote{http://openhub.com}. Foi feita a traducão
+do portal para português e ele pode ser visto agora tanto em inglês quanto português. Também na nova 
+versão do portal já é possível resgatar senha de usuário.
+
