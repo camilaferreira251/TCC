@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {danish}
+\beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
+\beamer@sectionintoc {2}{Software Livre}{5}{0}{2}
+\beamer@sectionintoc {3}{Barreiras para contribuir com software livre}{11}{0}{3}
+\beamer@sectionintoc {4}{Metodologia}{17}{0}{4}
+\beamer@sectionintoc {5}{Barreiras para contribuir com software p\IeC {\'u}blico}{22}{0}{5}
+\beamer@sectionintoc {6}{Desenvolvimento}{32}{0}{6}
+\beamer@sectionintoc {7}{Conclus\IeC {\~a}o}{43}{0}{7}
