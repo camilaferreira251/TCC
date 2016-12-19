@@ -1,5 +1,5 @@
 \beamer@endinputifotherversion {3.36pt}
-\select@language {danish}
+\select@language {portuguese}
 \beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
 \beamer@sectionintoc {2}{Software Livre}{5}{0}{2}
 \beamer@sectionintoc {3}{Barreiras para contribuir com software livre}{11}{0}{3}

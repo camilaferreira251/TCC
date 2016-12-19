@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.3)  30 NOV 2016 12:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.3)  8 DEC 2016 14:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -722,8 +722,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
 )) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2014/09/25 3.9l The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-danish/danish.ldf
-Language: danish 2009/09/19 v1.3r Danish support from the babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2014/09/25 3.9l Babel common definitions
@@ -731,7 +731,7 @@ File: babel.def 2014/09/25 3.9l Babel common definitions
 \U@D=\dimen190
 LaTeX Info: Redefining \textlatin on input line 1431.
 )
-Package babel Info: Making " an active character on input line 82.
+Package babel Info: Making " an active character on input line 145.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
@@ -952,7 +952,22 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/theme/compatibility/beam
+erthemesplit.sty
+Package: beamerthemesplit 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemewh
+ale.sty
+Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemesp
+lit.sty
+Package: beamerouterthemesplit 2012/10/16  (rcs-revision 51a8c72084af)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/font/beamerfontthemestru
+cturebold.sty
+Package: beamerfontthemestructurebold 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen191
 \epsfysize=\dimen192
@@ -1005,10 +1020,6 @@ Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemeor
 chid.sty
 Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemewh
-ale.sty
-Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemest
 ructure.sty
@@ -1160,13 +1171,17 @@ Package pdftex.def Info: unb_0.png used on input line 34.
 (pdftex.def)             Requested size: 34.14322pt x 19.118pt.
 
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
+LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <4> not available
 (Font)              size <5> substituted on input line 38.
 
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 38.
 
 File: unb_0.png Graphic file (type png)
 <use unb_0.png>
@@ -1175,8 +1190,8 @@ Package pdftex.def Info: unb_0.png used on input line 38.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./unb_0.png>] (./main.toc)
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1196,8 +1211,8 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              for symbol `textbullet' on input line 60.
 
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1207,8 +1222,8 @@ Package pdftex.def Info: unb_0.png used on input line 60.
  [3
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1218,8 +1233,8 @@ Package pdftex.def Info: unb_0.png used on input line 76.
  [4
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1229,8 +1244,8 @@ Package pdftex.def Info: unb_0.png used on input line 90.
  [5
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1240,8 +1255,8 @@ Package pdftex.def Info: unb_0.png used on input line 99.
  [6
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1251,8 +1266,8 @@ Package pdftex.def Info: unb_0.png used on input line 112.
  [7
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1273,7 +1288,7 @@ nverted-to.pdf figuras/arquitetura.eps>
 (epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/arquitetura-eps-converted-to.pdf, id=338, 1523.6925pt x 827.09pt>
+<figuras/arquitetura-eps-converted-to.pdf, id=339, 1523.6925pt x 827.09pt>
 File: figuras/arquitetura-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/arquitetura-eps-converted-to.pdf>
@@ -1285,8 +1300,8 @@ Overfull \vbox (10.33098pt too high) detected at line 137
  []
 
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1296,8 +1311,8 @@ Package pdftex.def Info: unb_0.png used on input line 137.
  [9
 
  <./figuras/arquitetura-eps-converted-to.pdf>]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1307,8 +1322,8 @@ Package pdftex.def Info: unb_0.png used on input line 154.
  [10
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1318,8 +1333,8 @@ Package pdftex.def Info: unb_0.png used on input line 167.
  [11
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1329,8 +1344,8 @@ Package pdftex.def Info: unb_0.png used on input line 177.
  [12
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1351,7 +1366,7 @@ erted-to.pdf figuras/Barreiras.eps>
 (epstopdf)             \includegraphics on input line 201.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Barreiras-eps-converted-to.pdf, id=511, 1770.615pt x 1924.18875pt>
+<figuras/Barreiras-eps-converted-to.pdf, id=512, 1770.615pt x 1924.18875pt>
 File: figuras/Barreiras-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Barreiras-eps-converted-to.pdf>
@@ -1363,8 +1378,8 @@ Overfull \vbox (37.29465pt too high) detected at line 201
  []
 
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1385,7 +1400,7 @@ ed-to.pdf figuras/portal.eps>
 (epstopdf)             \includegraphics on input line 212.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/portal-eps-converted-to.pdf, id=549, 1041.8925pt x 640.3925pt>
+<figuras/portal-eps-converted-to.pdf, id=550, 1041.8925pt x 640.3925pt>
 File: figuras/portal-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/portal-eps-converted-to.pdf>
@@ -1393,8 +1408,8 @@ Package pdftex.def Info: figuras/portal-eps-converted-to.pdf used on input line
  212.
 (pdftex.def)             Requested size: 208.3748pt x 128.07622pt.
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1404,8 +1419,8 @@ Package pdftex.def Info: unb_0.png used on input line 212.
  [15
 
  <./figuras/portal-eps-converted-to.pdf>]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1415,8 +1430,8 @@ Package pdftex.def Info: unb_0.png used on input line 227.
  [16
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1426,8 +1441,8 @@ Package pdftex.def Info: unb_0.png used on input line 242.
  [17
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1437,8 +1452,8 @@ Package pdftex.def Info: unb_0.png used on input line 250.
  [18
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1448,8 +1463,8 @@ Package pdftex.def Info: unb_0.png used on input line 267.
  [19
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1459,8 +1474,8 @@ Package pdftex.def Info: unb_0.png used on input line 279.
  [20
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1470,8 +1485,8 @@ Package pdftex.def Info: unb_0.png used on input line 289.
  [21
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1481,8 +1496,8 @@ Package pdftex.def Info: unb_0.png used on input line 302.
  [22
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1492,8 +1507,8 @@ Package pdftex.def Info: unb_0.png used on input line 320.
  [23
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1515,7 +1530,7 @@ _Publico_-eps-converted-to.pdf figuras/Barreiras_Software_Publico_.eps>
 (epstopdf)             \includegraphics on input line 346.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Barreiras_Software_Publico_-eps-converted-to.pdf, id=889, 1608.0075pt 
+<figuras/Barreiras_Software_Publico_-eps-converted-to.pdf, id=890, 1608.0075pt 
 x 1548.78625pt>
 File: figuras/Barreiras_Software_Publico_-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1528,8 +1543,8 @@ Overfull \vbox (14.98166pt too high) detected at line 346
  []
 
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1551,15 +1566,15 @@ converted-to.pdf figuras/barreirassoSL.eps>
 (epstopdf)             \includegraphics on input line 358.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/barreirassoSL-eps-converted-to.pdf, id=928, 862.22125pt x 253.94875pt>
+<figuras/barreirassoSL-eps-converted-to.pdf, id=929, 862.22125pt x 253.94875pt>
 File: figuras/barreirassoSL-eps-converted-to.pdf Graphic file (type pdf)
 <use figuras/barreirassoSL-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/barreirassoSL-eps-converted-to.pdf used on inp
 ut line 358.
 (pdftex.def)             Requested size: 258.66837pt x 76.1852pt.
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1581,7 +1596,7 @@ converted-to.pdf figuras/conhecimentos.eps>
 (epstopdf)             \includegraphics on input line 369.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/conhecimentos-eps-converted-to.pdf, id=966, 883.3pt x 282.05376pt>
+<figuras/conhecimentos-eps-converted-to.pdf, id=967, 883.3pt x 282.05376pt>
 File: figuras/conhecimentos-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/conhecimentos-eps-converted-to.pdf>
@@ -1589,8 +1604,8 @@ Package pdftex.def Info: figuras/conhecimentos-eps-converted-to.pdf used on inp
 ut line 369.
 (pdftex.def)             Requested size: 264.99205pt x 84.61678pt.
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1612,7 +1627,7 @@ s-converted-to.pdf figuras/caracteristicas.eps>
 (epstopdf)             \includegraphics on input line 381.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/caracteristicas-eps-converted-to.pdf, id=1005, 1372.12625pt x 471.7625
+<figuras/caracteristicas-eps-converted-to.pdf, id=1006, 1372.12625pt x 471.7625
 pt>
 File: figuras/caracteristicas-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/caracteristicas-eps-converted-to.pdf>
@@ -1620,8 +1635,8 @@ Package pdftex.def Info: figuras/caracteristicas-eps-converted-to.pdf used on i
 nput line 381.
 (pdftex.def)             Requested size: 274.4204pt x 94.35081pt.
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1643,7 +1658,7 @@ onverted-to.pdf figuras/documentacao.eps>
 (epstopdf)             \includegraphics on input line 392.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/documentacao-eps-converted-to.pdf, id=1043, 666.49pt x 216.81pt>
+<figuras/documentacao-eps-converted-to.pdf, id=1044, 666.49pt x 216.81pt>
 File: figuras/documentacao-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/documentacao-eps-converted-to.pdf>
@@ -1651,8 +1666,8 @@ Package pdftex.def Info: figuras/documentacao-eps-converted-to.pdf used on inpu
 t line 392.
 (pdftex.def)             Requested size: 199.94853pt x 65.04349pt.
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1674,7 +1689,7 @@ onverted-to.pdf figuras/dificuldades.eps>
 (epstopdf)             \includegraphics on input line 404.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/dificuldades-eps-converted-to.pdf, id=1081, 762.85pt x 334.24875pt>
+<figuras/dificuldades-eps-converted-to.pdf, id=1082, 762.85pt x 334.24875pt>
 File: figuras/dificuldades-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/dificuldades-eps-converted-to.pdf>
@@ -1682,8 +1697,8 @@ Package pdftex.def Info: figuras/dificuldades-eps-converted-to.pdf used on inpu
 t line 404.
 (pdftex.def)             Requested size: 228.85677pt x 100.27539pt.
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1704,7 +1719,7 @@ nverted-to.pdf figuras/orientacoes.eps>
 (epstopdf)             \includegraphics on input line 415.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/orientacoes-eps-converted-to.pdf, id=1119, 842.14626pt x 236.885pt>
+<figuras/orientacoes-eps-converted-to.pdf, id=1120, 842.14626pt x 236.885pt>
 File: figuras/orientacoes-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/orientacoes-eps-converted-to.pdf>
@@ -1712,8 +1727,8 @@ Package pdftex.def Info: figuras/orientacoes-eps-converted-to.pdf used on input
  line 415.
 (pdftex.def)             Requested size: 252.64583pt x 71.06604pt.
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1723,8 +1738,8 @@ Package pdftex.def Info: unb_0.png used on input line 415.
  [31
 
  <./figuras/orientacoes-eps-converted-to.pdf>]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1746,7 +1761,7 @@ ps-converted-to.pdf figuras/diagrama_inicial.eps>
 (epstopdf)             \includegraphics on input line 438.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/diagrama_inicial-eps-converted-to.pdf, id=1191, 1398.22375pt x 498.863
+<figuras/diagrama_inicial-eps-converted-to.pdf, id=1192, 1398.22375pt x 498.863
 75pt>
 File: figuras/diagrama_inicial-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/diagrama_inicial-eps-converted-to.pdf>
@@ -1754,8 +1769,8 @@ Package pdftex.def Info: figuras/diagrama_inicial-eps-converted-to.pdf used on
 input line 438.
 (pdftex.def)             Requested size: 279.6398pt x 99.77098pt.
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1776,7 +1791,7 @@ erted-to.pdf figuras/prototipo.eps>
 (epstopdf)             \includegraphics on input line 448.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/prototipo-eps-converted-to.pdf, id=1230, 1288.815pt x 637.38126pt>
+<figuras/prototipo-eps-converted-to.pdf, id=1231, 1288.815pt x 637.38126pt>
 File: figuras/prototipo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/prototipo-eps-converted-to.pdf>
@@ -1784,8 +1799,8 @@ Package pdftex.def Info: figuras/prototipo-eps-converted-to.pdf used on input l
 ine 448.
 (pdftex.def)             Requested size: 257.75844pt x 127.47398pt.
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1795,8 +1810,8 @@ Package pdftex.def Info: unb_0.png used on input line 448.
  [34
 
  <./figuras/prototipo-eps-converted-to.pdf>]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1818,7 +1833,7 @@ f>
 (epstopdf)             \includegraphics on input line 470.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/diagrama_fase2-eps-converted-to.pdf, id=1301, 763.85374pt x 631.35875p
+<figuras/diagrama_fase2-eps-converted-to.pdf, id=1302, 763.85374pt x 631.35875p
 t>
 File: figuras/diagrama_fase2-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/diagrama_fase2-eps-converted-to.pdf>
@@ -1826,8 +1841,8 @@ Package pdftex.def Info: figuras/diagrama_fase2-eps-converted-to.pdf used on in
 put line 470.
 (pdftex.def)             Requested size: 152.76804pt x 126.2695pt.
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1848,7 +1863,7 @@ d-to.pdf figuras/login.eps>
 (epstopdf)             \includegraphics on input line 480.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/login-eps-converted-to.pdf, id=1340, 1275.76625pt x 661.47125pt>
+<figuras/login-eps-converted-to.pdf, id=1341, 1275.76625pt x 661.47125pt>
 File: figuras/login-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/login-eps-converted-to.pdf>
@@ -1856,8 +1871,8 @@ Package pdftex.def Info: figuras/login-eps-converted-to.pdf used on input line
 480.
 (pdftex.def)             Requested size: 255.14873pt x 132.2919pt.
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1878,7 +1893,7 @@ ed-to.pdf figuras/layout.eps>
 (epstopdf)             \includegraphics on input line 490.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/layout-eps-converted-to.pdf, id=1379, 1288.815pt x 673.51625pt>
+<figuras/layout-eps-converted-to.pdf, id=1380, 1288.815pt x 673.51625pt>
 File: figuras/layout-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/layout-eps-converted-to.pdf>
@@ -1886,8 +1901,8 @@ Package pdftex.def Info: figuras/layout-eps-converted-to.pdf used on input line
  490.
 (pdftex.def)             Requested size: 257.75844pt x 134.70085pt.
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1908,7 +1923,7 @@ ed-to.pdf figuras/Sprint.eps>
 (epstopdf)             \includegraphics on input line 506.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Sprint-eps-converted-to.pdf, id=1417, 1109.14375pt x 305.14pt>
+<figuras/Sprint-eps-converted-to.pdf, id=1418, 1109.14375pt x 305.14pt>
 File: figuras/Sprint-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Sprint-eps-converted-to.pdf>
@@ -1916,8 +1931,8 @@ Package pdftex.def Info: figuras/Sprint-eps-converted-to.pdf used on input line
  506.
 (pdftex.def)             Requested size: 221.82481pt x 61.0269pt.
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1927,8 +1942,8 @@ Package pdftex.def Info: unb_0.png used on input line 506.
  [39
 
  <./figuras/Sprint-eps-converted-to.pdf>]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1950,7 +1965,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 532.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/flosscoachProducao-eps-converted-to.pdf, id=1489, 1304.875pt x 718.685
+<figuras/flosscoachProducao-eps-converted-to.pdf, id=1490, 1304.875pt x 718.685
 pt>
 File: figuras/flosscoachProducao-eps-converted-to.pdf Graphic file (type pdf)
  <use figuras/flosscoachProducao-eps-converted-to.pdf>
@@ -1958,8 +1973,8 @@ Package pdftex.def Info: figuras/flosscoachProducao-eps-converted-to.pdf used o
 n input line 532.
 (pdftex.def)             Requested size: 260.97038pt x 143.73445pt.
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -1981,7 +1996,7 @@ converted-to.pdf figuras/paginaprojeto.eps>
 (epstopdf)             \includegraphics on input line 542.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/paginaprojeto-eps-converted-to.pdf, id=1526, 1280.785pt x 720.6925pt>
+<figuras/paginaprojeto-eps-converted-to.pdf, id=1527, 1280.785pt x 720.6925pt>
 File: figuras/paginaprojeto-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/paginaprojeto-eps-converted-to.pdf>
@@ -1989,8 +2004,8 @@ Package pdftex.def Info: figuras/paginaprojeto-eps-converted-to.pdf used on inp
 ut line 542.
 (pdftex.def)             Requested size: 256.15247pt x 144.13594pt.
 
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -2000,8 +2015,8 @@ Package pdftex.def Info: unb_0.png used on input line 542.
  [42
 
  <./figuras/paginaprojeto-eps-converted-to.pdf>]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -2011,8 +2026,8 @@ Package pdftex.def Info: unb_0.png used on input line 555.
  [43
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -2022,8 +2037,8 @@ Package pdftex.def Info: unb_0.png used on input line 567.
  [44
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -2033,8 +2048,8 @@ Package pdftex.def Info: unb_0.png used on input line 581.
  [45
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -2044,8 +2059,8 @@ Package pdftex.def Info: unb_0.png used on input line 589.
  [46
 
 ]
-Overfull \hbox (5.4547pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Desenvolvimento  
+Overfull \hbox (7.27188pt too wide) has occurred while \output is active
+ []\OT1/cmss/bx/n/6 Desenvolvimento  
  []
 
 File: unb_0.png Graphic file (type png)
@@ -2082,23 +2097,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 594.
  ) 
 Here is how much of TeX's memory you used:
- 18522 strings out of 493085
- 354191 string characters out of 6136917
- 433130 words of memory out of 5000000
- 21417 multiletter control sequences out of 15000+600000
- 7030 words of font info for 25 fonts, out of 8000000 for 9000
+ 18554 strings out of 493085
+ 355553 string characters out of 6136917
+ 434363 words of memory out of 5000000
+ 21437 multiletter control sequences out of 15000+600000
+ 7912 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,20n,55p,400b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,20n,55p,410b,613s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (47 pages, 2156850 bytes).
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on main.pdf (47 pages, 2166972 bytes).
 PDF statistics:
- 1780 PDF objects out of 2073 (max. 8388607)
- 1660 compressed objects within 17 object streams
+ 1784 PDF objects out of 2073 (max. 8388607)
+ 1663 compressed objects within 17 object streams
  120 named destinations out of 1000 (max. 500000)
  218 words of extra memory for PDF output out of 10000 (max. 10000000)
 
